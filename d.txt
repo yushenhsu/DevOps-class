@@ -1,4 +1,4 @@
 add
 ccc
 ddd
-eee + branch_a
+eee <<< add branch_b
