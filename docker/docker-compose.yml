@@ -1,0 +1,12 @@
+services:
+  server1:
+    image: nginx:1.27
+    container_name: nginx_server_1
+    ports:
+      - 8080:80
+    volumes:
+      - data:/srv/mydata
+
+
+volumes:
+  data:
